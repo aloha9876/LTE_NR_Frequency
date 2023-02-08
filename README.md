@@ -2,7 +2,17 @@
 
 Convert between EARFCN and LTE frequency, NR-ARFCN and NR frequency.
 
-## get_lte_freq():
+## Install
+```
+pip install lte-nr-frequency
+```
+
+## Usage
+```
+from lte_nr_frequency import get_lte_freq
+```
+
+### get_lte_freq():
 
 **Args:**
 
@@ -12,7 +22,8 @@ LTE EARFCN.
 
 Dictionary of band name, LTE downlink frequency, LTE uplink frequency, duplex type.
 
-## get_lte_earfcn()
+
+### get_lte_earfcn()
 
 **Args:**
 
@@ -22,7 +33,8 @@ LTE downlink frequency.
 
 List of dictionaries of band name, LTE uplink frequency, LTE downlink earfcn, LTE uplink earfcn and duplex type.
 
-## get_nr_dl_freq()
+
+### get_nr_dl_freq()
 
 **Args:**
 
@@ -32,7 +44,7 @@ NR downlink arfcn.
 
 List of dictionaries of band name, NR downlink frequency, duplex type, band type.
 
-## get_nr_dl_arfcn()
+### get_nr_dl_arfcn()
 
 **Args:**
 
