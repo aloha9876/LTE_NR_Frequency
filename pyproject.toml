@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lte-nr-frequency"
+version = "0.0.3"
+authors = [
+    { name="Rulin Xing", email="xingrulin@gmail.com" },
+    { name="Wang Xiang", email="ramwin@qq.com" },
+]
+description = "A python package to calculate the lte and nr frequency"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/aloha9876/LTE_NR_Frequency"
